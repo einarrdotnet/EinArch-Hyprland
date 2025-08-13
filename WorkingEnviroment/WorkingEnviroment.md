@@ -5,12 +5,11 @@ This "WorkingEnviroment" branch has been created to serve the folling purposes.
 
 ## Creating a Usable Working Enviroment
 After rebooting the system and logging into a fresh installation of Arch Linux a usable working enviroment for use in the TTY would be helpful. 
-  *All development on the "WorkingEnviroment" branch of this projects repository s done on a fresh install of Arch Linux this means all file,scripts and configurations are designed to be rn on a fresh install of Arch Linux.*
+> Note: All development on the "WorkingEnviroment" branch of this projects repository s done on a fresh install of Arch Linux this means all file,scripts and configurations are designed to be rn on a fresh install of Arch Linux.*
 
 ## Creating the WorkingEnviroment Shell Script
 A Bash Shell Script file has been created name "WorkingEnviroment.sh" with the purpose of when executed it will deploy the final useable working enviroment on any fresh installtion of Arch Linux.
-  For further information please see the contents of the "WorkingEnviroment-ToDoList.md" for a current list of tasks regarding the "WorkingEnviroment.sh" bash shell script 
-  Alternativly you can view the contents of the shell scripts itself as it is heavyly documented. 
+> Note: For further information please see the contents of the "WorkingEnviroment-ToDoList.md" for a current list of tasks regarding the "WorkingEnviroment.sh" bash shell script. Alternativly you can view the contents of the shell scripts itself as it is heavyly documented. 
 
 ## Setting up a working Bash Enviroment
 To make for more a efficient use some modification to the bash shell enviroment have been made.
@@ -18,14 +17,14 @@ To make for more a efficient use some modification to the bash shell enviroment 
 ### Bash Aliases
 As there is the possiability of the list of personally used alias commands growing quite large a hidden file name ".BashAliases" has been createdi with the follow aliases and potential of further segmentation of alias files
     
-    alias ls='ls -lar' #appends ls command to show all files in long format with human readable file size
-    alias ..='cd ..' # shortcut for go up one directory
-    alias ...='cd ../..' shortcut for go up two directories
+    alias ls='ls -lar' # Appends ls command to show all files in long format with human readable file size
+    alias ..='cd ..' # Shortcut for go up one directory
+    alias ...='cd ../..' # Shortcut for go up two directories
 
-    alias pac='sudo pacman' #Alais for calling pacman with superuser
-    alias update='sudo pacman -Syyu' #Fully update packages with pacman
-    alias vim='nvim' #replaces vim command with neovim command
-    alias vi='nvim' #replace vi command with neo vim comm
+    alias pac='sudo pacman' # Alais for calling pacman with superuser
+    alias update='sudo pacman -Syyu' # Fully sync and update packages with pacman
+    alias vim='nvim' # Replaces vim command with neovim command
+    alias vi='nvim' # Replace vi command with neo vim comm
 
 A section regarding the Bash Aliases has been added to the "WorkingEnviroment.sh" bash shell script. 
 
@@ -48,8 +47,8 @@ A section regarding creation of user directories has been added to the "WorkingE
 ## Setting up a Working Git Enviroment
 A working Git Enviroment is required be setup on the system along with the following git variables set.
 
-    global.name #Sets the global name for git
-    global.email #Sets the global email for git
-    Personal Access Tokens #All Personal Access Tokens will be managed seperatly.
+    global.name # Sets the global name for git
+    global.email # Sets the global email for git
+    Personal Access Tokens # All Personal Access Tokens will be managed seperatly.
 
 A section regarding the setting up of a working git enviroment has been added to the "WorkingEnviroment.sh" bash shell script
