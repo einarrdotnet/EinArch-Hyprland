@@ -6,7 +6,7 @@ The following documentation serves as a To Do List laying out the functional req
 - [ ] Check to make sure the system is up to date.
 
 ## Bash Enviroment Setup
-- [ ] copy over ".BashAliases" file from the git clone to the users home directory
+- [ ] Copy over ".BashAliases" file from the git clone to the users home directory
 - [ ] Append "source ~/.BashAliases" to end of the .bashrc file
 - [ ] Reload the .bashrc file allowing aliases to be used.
 
@@ -26,3 +26,4 @@ The following documentation serves as a To Do List laying out the functional req
 - [ ] install/update git
 - [ ] set the git config global name variable to "Einarr"
 - [ ] set the git config global email variable to "einarr.net@gmail.com"
+- [ ] Move the git repoistory "EinArch-Hyprland.git" to the user directory "Projects"
